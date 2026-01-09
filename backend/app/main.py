@@ -10,6 +10,7 @@ app = FastAPI(title="Evolution of Todo - Phase 3")
 origins = [
     "http://localhost:3000",
     "http://127.0.0.1:3000",
+    "https://evolution-of-todo-frontend-murex.vercel.app",
 ]
 
 app.add_middleware(
